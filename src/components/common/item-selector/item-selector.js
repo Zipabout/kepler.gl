@@ -278,7 +278,7 @@ class ItemSelector extends Component {
             />
           ) : (
             <StyledDropdownSelect {...dropdownSelectProps}>
-              <DropdownSelectValue placeholder={!hasValue}>
+              <DropdownSelectValue>
                 {hasValue ? (
                   <this.props.DropDownLineItemRenderComponent
                     displayOption={displayOption}
